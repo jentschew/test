@@ -1,0 +1,9 @@
+/node_modules/
+/api-tester/
+/dist/
+
+Dockerfile
+docker-compose.dev.yml
+docker-compose.prod.yml
+.env.development
+.env.production
