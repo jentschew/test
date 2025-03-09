@@ -1,0 +1,15 @@
+meta {
+  name: Entwickler anhand Name
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:3000/api/developer/name/:name
+  body: none
+  auth: none
+}
+
+params:path {
+  name: John Doe
+}

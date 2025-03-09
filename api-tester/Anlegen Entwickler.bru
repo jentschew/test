@@ -1,0 +1,19 @@
+meta {
+  name: Anlegen Entwickler
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3000/api/developer/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "email": "another.dev@example.com",
+    "name": "Mock Dev",
+    "level": "Senior"
+  }
+}
